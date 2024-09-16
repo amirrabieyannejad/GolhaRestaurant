@@ -1,0 +1,28 @@
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\GolhaRestaurant(main).dll
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\GolhaRestaurant(main).pdb
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).dll
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\PersianDatePickup.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\PersianDatePickup.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\FredCK.FCKeditorV2.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\FredCK.FCKeditorV2.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\MSCaptcha.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\MSCaptcha.xml
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\GolhaRestaurant(main).dll.config
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\GolhaRestaurant(main).dll
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\GolhaRestaurant(main).pdb
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\FredCK.FCKeditorV2.pdb
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\MSCaptcha.xml
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\PersianDatePickup.pdb
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).csprojAssemblyReference.cache
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).csproj.CopyComplete
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).dll
+D:\Lap Top\E\Learning\Programming\CODE\Visual Studio 2010\Projects\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).pdb
+C:\Users\amirr\Desktop\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\GolhaRestaurant(main).dll.config
+C:\Users\amirr\Desktop\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\GolhaRestaurant(main).dll
+C:\Users\amirr\Desktop\GolhaRestaurant(main)\GolhaRestaurant(main)\bin\GolhaRestaurant(main).pdb
+C:\Users\amirr\Desktop\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).csproj.CopyComplete
+C:\Users\amirr\Desktop\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).dll
+C:\Users\amirr\Desktop\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).pdb
+C:\Users\amirr\Desktop\GolhaRestaurant(main)\GolhaRestaurant(main)\obj\Debug\GolhaRestaurant(main).csprojAssemblyReference.cache

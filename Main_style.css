@@ -1,0 +1,100 @@
+﻿body
+{
+    background-color:black;
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+    font-family: B Zar;
+    font-size: medium;
+    color:#c0c0c0;
+    
+}
+.table
+{
+    border: thin solid #cfe0f4;
+    background-color:black;
+}
+.button
+{
+    background-image: url('Image/footer.jpg');
+    color:White;
+    font-weight:bold;
+    
+    
+}
+.menu
+{
+    
+    font-family:Arial;
+}
+fieldset
+{
+   width:551px;
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-family:Tahoma;
+    font-size: .9em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+
+
+th
+      {
+        background-color:#eef4fa;
+        border-top:solid 1px #9dbbcc;
+        border-bottom:solid 1px #9dbbcc;
+      }
+.itemSeparator 
+{
+    border-right: 1px solid #ccc
+
+}
+.groupSeparator
+{
+ height: 1px;
+ background-color: #cccccc;
+}
+
+.more {
+	display: none;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666; }
+a.showLink, a.hideLink {
+	text-decoration: none;
+	color: #36f;
+	padding-left: 9px;
+	background: transparent url('Image/down.gif') no-repeat right;
+
+}
+a.hideLink {
+	background: transparent url('Image/up.gif') no-repeat right; 
+
+}
+a.showLink:hover, a.hideLink:hover 
+{
+	border-bottom: 1px dotted #36f;
+
+} 
+	

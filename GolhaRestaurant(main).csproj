@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EC9BDF6C-2AEA-4DD6-BB56-35CABE6508B0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GolhaRestaurant_main_</RootNamespace>
+    <AssemblyName>GolhaRestaurant%28main%29</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FredCK.FCKeditorV2, Version=2.2.2106.29421, Culture=neutral, PublicKeyToken=4f86767c9b519a06">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="MSCaptcha, Version=4.0.4250.31585, Culture=neutral, PublicKeyToken=b9ff12f28cdcf412, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Project\golha\mscaptcha4\MSCaptcha.dll</HintPath>
+    </Reference>
+    <Reference Include="PersianDatePickup">
+      <HintPath>..\..\..\WebSites\test3\Bin\PersianDatePickup.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\jquery.marquee.js" />
+    <Content Include="Control\Admin\Aboutus.ascx" />
+    <Content Include="Control\Admin\Contactus.ascx" />
+    <Content Include="Control\Admin\cook_page.ascx" />
+    <Content Include="Control\Admin\Insertion_requirements.ascx" />
+    <Content Include="Control\Admin\Login_Admin.ascx" />
+    <Content Include="Control\cook_view.ascx" />
+    <Content Include="Control\Edit\Editing_cook.ascx" />
+    <Content Include="Control\Edit\Editing_knowledge.ascx" />
+    <Content Include="Control\Edit\Editing_Requirements.ascx" />
+    <Content Include="Control\Edit\Edit_cook.ascx" />
+    <Content Include="Control\Edit\Edit_Knowledge.ascx" />
+    <Content Include="Control\Edit\Edit_requirements.ascx" />
+    <Content Include="Control\First_page.ascx" />
+    <Content Include="Control\Admin\Insertion_science.ascx" />
+    <Content Include="Control\menu\Food_menu.ascx" />
+    <Content Include="Control\menu\requirements_page.ascx" />
+    <Content Include="Control\opinion_page.ascx" />
+    <Content Include="Control\learning_page.ascx" />
+    <Content Include="Control\shw_ins_detail.ascx" />
+    <Content Include="Control\Admin\suggest_view.ascx" />
+    <Content Include="Control\Torism\map_page.ascx" />
+    <Content Include="Control\Torism\torism_attraction.ascx" />
+    <Content Include="Control\view_category.ascx" />
+    <Content Include="Image\08.jpg" />
+    <Content Include="Image\banner%28main%29.jpg" />
+    <Content Include="Image\bgTitr.jpg" />
+    <Content Include="Image\BlueTickBox.gif" />
+    <Content Include="Image\category\CAWDIRW9.jpg" />
+    <Content Include="Image\category\khoresht.JPG" />
+    <Content Include="Image\category\salad.jpg" />
+    <Content Include="Image\category\soop.jpg" />
+    <Content Include="Image\footer.jpg" />
+    <Content Include="Image\forward.jpg" />
+    <Content Include="Image\ghaza%28best%29.swf" />
+    <Content Include="Image\headerimg%28text%29.jpg" />
+    <Content Include="Image\map.jpg" />
+    <Content Include="Image\menu.swf" />
+    <Content Include="Image\Menu_Popout.gif" />
+    <Content Include="Image\previeous.jpg" />
+    <Content Include="Image\refooter.jpg" />
+    <Content Include="Image\vtoday.png" />
+    <Content Include="Control\login.ascx" />
+    <Content Include="Main_page.aspx" />
+    <Content Include="Main_style.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\convertDate.cs" />
+    <Compile Include="App_GlobalResources\MyDataAccesslayer.cs" />
+    <Compile Include="App_GlobalResources\insertion_sc.cs" />
+    <Compile Include="App_GlobalResources\UserClass.cs" />
+    <Compile Include="Control\Admin\Aboutus.ascx.cs">
+      <DependentUpon>Aboutus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Admin\Aboutus.ascx.designer.cs">
+      <DependentUpon>Aboutus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Admin\Contactus.ascx.cs">
+      <DependentUpon>Contactus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Admin\Contactus.ascx.designer.cs">
+      <DependentUpon>Contactus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Admin\cook_page.ascx.cs">
+      <DependentUpon>cook_page.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Admin\cook_page.ascx.designer.cs">
+      <DependentUpon>cook_page.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Admin\Insertion_requirements.ascx.cs">
+      <DependentUpon>Insertion_requirements.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Admin\Insertion_requirements.ascx.designer.cs">
+      <DependentUpon>Insertion_requirements.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Admin\Login_Admin.ascx.cs">
+      <DependentUpon>Login_Admin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Admin\Login_Admin.ascx.designer.cs">
+      <DependentUpon>Login_Admin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\cook_view.ascx.cs">
+      <DependentUpon>cook_view.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\cook_view.ascx.designer.cs">
+      <DependentUpon>cook_view.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Edit\Editing_cook.ascx.cs">
+      <DependentUpon>Editing_cook.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Edit\Editing_cook.ascx.designer.cs">
+      <DependentUpon>Editing_cook.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Edit\Editing_knowledge.ascx.cs">
+      <DependentUpon>Editing_knowledge.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Edit\Editing_knowledge.ascx.designer.cs">
+      <DependentUpon>Editing_knowledge.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Edit\Editing_Requirements.ascx.cs">
+      <DependentUpon>Editing_Requirements.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Edit\Editing_Requirements.ascx.designer.cs">
+      <DependentUpon>Editing_Requirements.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Edit\Edit_cook.ascx.cs">
+      <DependentUpon>Edit_cook.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Edit\Edit_cook.ascx.designer.cs">
+      <DependentUpon>Edit_cook.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Edit\Edit_Knowledge.ascx.cs">
+      <DependentUpon>Edit_Knowledge.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Edit\Edit_Knowledge.ascx.designer.cs">
+      <DependentUpon>Edit_Knowledge.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Edit\Edit_requirements.ascx.cs">
+      <DependentUpon>Edit_requirements.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Edit\Edit_requirements.ascx.designer.cs">
+      <DependentUpon>Edit_requirements.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\First_page.ascx.cs">
+      <DependentUpon>First_page.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\First_page.ascx.designer.cs">
+      <DependentUpon>First_page.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Admin\Insertion_science.ascx.cs">
+      <DependentUpon>Insertion_science.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Admin\Insertion_science.ascx.designer.cs">
+      <DependentUpon>Insertion_science.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\login.ascx.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\login.ascx.designer.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\menu\Food_menu.ascx.cs">
+      <DependentUpon>Food_menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\menu\Food_menu.ascx.designer.cs">
+      <DependentUpon>Food_menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\menu\requirements_page.ascx.cs">
+      <DependentUpon>requirements_page.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\menu\requirements_page.ascx.designer.cs">
+      <DependentUpon>requirements_page.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\opinion_page.ascx.cs">
+      <DependentUpon>opinion_page.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\opinion_page.ascx.designer.cs">
+      <DependentUpon>opinion_page.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\learning_page.ascx.cs">
+      <DependentUpon>learning_page.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\learning_page.ascx.designer.cs">
+      <DependentUpon>learning_page.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\shw_ins_detail.ascx.cs">
+      <DependentUpon>shw_ins_detail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\shw_ins_detail.ascx.designer.cs">
+      <DependentUpon>shw_ins_detail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Admin\suggest_view.ascx.cs">
+      <DependentUpon>suggest_view.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Admin\suggest_view.ascx.designer.cs">
+      <DependentUpon>suggest_view.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Torism\map_page.ascx.cs">
+      <DependentUpon>map_page.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Torism\map_page.ascx.designer.cs">
+      <DependentUpon>map_page.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Torism\torism_attraction.ascx.cs">
+      <DependentUpon>torism_attraction.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\Torism\torism_attraction.ascx.designer.cs">
+      <DependentUpon>torism_attraction.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\view_category.ascx.cs">
+      <DependentUpon>view_category.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\view_category.ascx.designer.cs">
+      <DependentUpon>view_category.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Main_page.aspx.cs">
+      <DependentUpon>Main_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main_page.aspx.designer.cs">
+      <DependentUpon>Main_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CssClasses\" />
+    <Folder Include="NewsPic\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1987</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
